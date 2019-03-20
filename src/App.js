@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './app.css'
+import './App.css'
 import generateGrid from './generate-grid'
 
 const allPatterns = ['111', '110', '101', '100', '011', '010', '001', '000']
