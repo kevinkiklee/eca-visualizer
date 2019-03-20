@@ -1,8 +1,3 @@
-const transpose = grid => {
-
-}
-
-
 function* ecaGenerator(activePatterns) {
   let state = [0, 1, 0]
 
@@ -32,19 +27,12 @@ const generateState = (size, activePatterns) => {
   }
 
   return state
-
-  // const state = new Array(size)
-  // state.map(cell => ecaGen.next().value)
 }
 
 const padRow = (row, size) => {
   while (row.length < size) {
     row.push(0)
     row.unshift(0)
-  }
-
-  if (size % 2 !== 0) {
-    row.pop()
   }
 
   return row
