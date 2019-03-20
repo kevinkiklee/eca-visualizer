@@ -1,3 +1,8 @@
+const transpose = grid => {
+
+}
+
+
 function* ecaGenerator(activePatterns) {
   let state = [0, 1, 0]
 
